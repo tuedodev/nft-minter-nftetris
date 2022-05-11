@@ -1,0 +1,30 @@
+{
+  "name": "nft-minter-nftetris",
+  "version": "1.0.0",
+  "description": "A NFT Minter and Tetris Game",
+  "private": true,
+  "scripts": {
+    "compile": "tsc -b -w -i",
+    "eslint": "eslint src/**/**.{ts,tsx}",
+    "eslint:fix": "eslint src/**/**.{ts,tsx} --fix",
+    "dev": "npm run dev --workspace=packages/nextjs",
+    "build": "npm run build --workspace=packages/nextjs",
+    "start": "npm run start --workspace=packages/nextjs",
+    "hh_compile": "npm run hh_compile --workspace=packages/hardhat",
+    "hh_accounts": "npm run accounts --workspace=packages/hardhat",
+    "hh_deploy": "npm run deploy --workspace=packages/hardhat",
+    "hh_deployPolygon": "npm run deployPolygon --workspace=packages/hardhat",
+    "hh_deployAvalanche": "npm run deployAvalanche --workspace=packages/hardhat",
+    "hh_test": "npm run test --workspace=packages/hardhat"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.26",
+    "ts-node": "^10.7.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
