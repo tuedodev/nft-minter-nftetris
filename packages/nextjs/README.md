@@ -4,7 +4,7 @@
 
 NFTetris was originally implemented as a pure React Single Page Application (SPA), a framework like Next.js would not have been necessary for the game itself. However, in order to enable a secure email notification at the end of the game, the game was finally built on Next.js in order to be able to use the API infrastructure there with the respective securities (Same-origin policy).
 
-[LIVE-DEMO Beta-Version](https://nft-minter-nftetris.vercel.app/)
+[:arrow_right: LIVE-DEMO Beta-Version](https://nft-minter-nftetris.vercel.app/)
 
 ## Installation
 
