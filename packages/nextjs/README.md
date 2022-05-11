@@ -4,6 +4,8 @@
 
 NFTetris was originally implemented as a pure React Single Page Application (SPA), a framework like Next.js would not have been necessary for the game itself. However, in order to enable a secure email notification at the end of the game, the game was finally built on Next.js in order to be able to use the API infrastructure there with the respective securities (Same-origin policy).
 
+[LIVE-DEMO Beta-Version](https://nft-minter-nftetris.vercel.app/)
+
 ## Installation
 
 From the root directory of the monorepo `npm install` or for the Next.js package separately `npm install --workspace=packages/nextjs`.
@@ -41,7 +43,7 @@ export const TRANSACTION_OPTIONS = {
 
 You should use your mouse and on smartphones or tablet your fingers and click in the navigation icons around the center of the screen. The game ends when the maximum time limit is reached or the pieces reach the ceiling of the screen. The speed can be changed from slow to fast via the switch at the top center of the screen (this also doubles the score).
 
-![NFTetris Screenshot](/assets/images/screenshot_nftetris.jpg)
+[![NFTetris Screenshot](/assets/images/screenshot_nftetris.jpg](https://nft-minter-nftetris.vercel.app/)
 
 In order to proceed you need to enter the metadata for the desired NFT, in this case name and description. Enter DEPLOY NFT to proceed or NO THANKS to cancel and start a new game.
 

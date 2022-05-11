@@ -27,6 +27,8 @@ The Monorepo is still in beta and only supports Polygon Testnet Mumbai so far.
 
 [:arrow_right: README.md](./packages/nextjs/README.md) Next.js implementation of the classical game Tetris as Single Page Application SPA. The game was originally implemented in React, but in order to provide a secure API for email notification, the React components were built on top of Next.js
 
+[LIVE-DEMO Beta-Version](https://nft-minter-nftetris.vercel.app/)
+
 **Main dependencies are:**
 
 - Next.js
@@ -41,4 +43,4 @@ The Monorepo is still in beta and only supports Polygon Testnet Mumbai so far.
 Installation process should be kicked off **inside the monorepo´s root directory**.
 `npm install` or for for each individual package `npm install --workspace=packages/hardhat` (Collection Contract) and respectively `npm install --workspace=packages/nextjs` (Frontend).
 
-![NFTetris Screenshot](/assets/images/screenshot_nftetris.jpg)
+[![NFTetris Screenshot](/assets/images/screenshot_nftetris.jpg](https://nft-minter-nftetris.vercel.app/)
