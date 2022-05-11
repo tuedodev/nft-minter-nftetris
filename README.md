@@ -43,4 +43,4 @@ The Monorepo is still in beta and only supports Polygon Testnet Mumbai so far.
 Installation process should be kicked off **inside the monorepo´s root directory**.
 `npm install` or for for each individual package `npm install --workspace=packages/hardhat` (Collection Contract) and respectively `npm install --workspace=packages/nextjs` (Frontend).
 
-[![NFTetris Screenshot](/assets/images/screenshot_nftetris.jpg](https://nft-minter-nftetris.vercel.app/)
+[![NFTetris Screenshot](/assets/images/screenshot_nftetris.jpg)](https://nft-minter-nftetris.vercel.app/)

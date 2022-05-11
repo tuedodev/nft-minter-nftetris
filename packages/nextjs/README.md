@@ -43,7 +43,7 @@ export const TRANSACTION_OPTIONS = {
 
 You should use your mouse and on smartphones or tablet your fingers and click in the navigation icons around the center of the screen. The game ends when the maximum time limit is reached or the pieces reach the ceiling of the screen. The speed can be changed from slow to fast via the switch at the top center of the screen (this also doubles the score).
 
-[![NFTetris Screenshot](/assets/images/screenshot_nftetris.jpg](https://nft-minter-nftetris.vercel.app/)
+[![NFTetris Screenshot](/assets/images/screenshot_nftetris.jpg)](https://nft-minter-nftetris.vercel.app/)
 
 In order to proceed you need to enter the metadata for the desired NFT, in this case name and description. Enter DEPLOY NFT to proceed or NO THANKS to cancel and start a new game.
 
